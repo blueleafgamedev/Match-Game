@@ -40,7 +40,9 @@
         <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="2" MouseDown="TextBlock_MouseDown"/>
         <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.Column="3" MouseDown="TextBlock_MouseDown"/>
-        
+        <TextBox x:Name="timeTextBlock" FontSize="36" HorizontalAlignment="Center" Height="64" Grid.Row="4" TextWrapping="Wrap" Text="Elapsed time" 
+                 VerticalAlignment="Center" Width="372" Grid.ColumnSpan="4" MouseDown="TimeTextBlock_MouseDown" TextAlignment="Center"/>
+
 
 
 
